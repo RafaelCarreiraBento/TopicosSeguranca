@@ -1,0 +1,14 @@
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\bin\Debug\MenuPrincipal.exe.config
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\bin\Debug\MenuPrincipal.exe
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\bin\Debug\MenuPrincipal.pdb
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.csproj.AssemblyReference.cache
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.FormLogin.resources
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.FormMenu.resources
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.Properties.Resources.resources
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.csproj.GenerateResource.cache
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.exe
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.pdb
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.FormChat.resources
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.FormRegisto.resources
