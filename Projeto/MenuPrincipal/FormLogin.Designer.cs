@@ -33,7 +33,8 @@
             this.textBoxUser = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonRegistar = new System.Windows.Forms.Button();
+            this.btLoginRegistar = new System.Windows.Forms.Button();
+            this.btRegisto = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label3
@@ -83,16 +84,27 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Nome de utilizador:";
             // 
-            // buttonRegistar
+            // btLoginRegistar
             // 
-            this.buttonRegistar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.buttonRegistar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRegistar.Location = new System.Drawing.Point(36, 250);
-            this.buttonRegistar.Name = "buttonRegistar";
-            this.buttonRegistar.Size = new System.Drawing.Size(433, 45);
-            this.buttonRegistar.TabIndex = 7;
-            this.buttonRegistar.Text = "Login";
-            this.buttonRegistar.UseVisualStyleBackColor = false;
+            this.btLoginRegistar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btLoginRegistar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btLoginRegistar.Location = new System.Drawing.Point(36, 250);
+            this.btLoginRegistar.Name = "btLoginRegistar";
+            this.btLoginRegistar.Size = new System.Drawing.Size(196, 45);
+            this.btLoginRegistar.TabIndex = 7;
+            this.btLoginRegistar.Text = "Login";
+            this.btLoginRegistar.UseVisualStyleBackColor = false;
+            // 
+            // btRegisto
+            // 
+            this.btRegisto.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btRegisto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btRegisto.Location = new System.Drawing.Point(257, 250);
+            this.btRegisto.Name = "btRegisto";
+            this.btRegisto.Size = new System.Drawing.Size(196, 45);
+            this.btRegisto.TabIndex = 13;
+            this.btRegisto.Text = "Registo";
+            this.btRegisto.UseVisualStyleBackColor = false;
             // 
             // FormLogin
             // 
@@ -100,12 +112,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(535, 348);
+            this.Controls.Add(this.btRegisto);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.textBoxUser);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.buttonRegistar);
+            this.Controls.Add(this.btLoginRegistar);
             this.Name = "FormLogin";
             this.Text = "FormLogin";
             this.ResumeLayout(false);
@@ -120,6 +133,7 @@
         private System.Windows.Forms.TextBox textBoxUser;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button buttonRegistar;
+        private System.Windows.Forms.Button btLoginRegistar;
+        private System.Windows.Forms.Button btRegisto;
     }
 }

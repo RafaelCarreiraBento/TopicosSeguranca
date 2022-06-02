@@ -28,52 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelUser = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBoxEscrever = new System.Windows.Forms.TextBox();
-            this.buttonRegistar = new System.Windows.Forms.Button();
+            this.lbUser = new System.Windows.Forms.Label();
+            this.lbChat = new System.Windows.Forms.Label();
+            this.tbmensagem = new System.Windows.Forms.TextBox();
+            this.btEnviar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // labelUser
+            // lbUser
             // 
-            this.labelUser.AutoSize = true;
-            this.labelUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUser.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelUser.Location = new System.Drawing.Point(12, 20);
-            this.labelUser.Name = "labelUser";
-            this.labelUser.Size = new System.Drawing.Size(145, 25);
-            this.labelUser.TabIndex = 10;
-            this.labelUser.Text = "(NOME USER)";
+            this.lbUser.AutoSize = true;
+            this.lbUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUser.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbUser.Location = new System.Drawing.Point(12, 20);
+            this.lbUser.Name = "lbUser";
+            this.lbUser.Size = new System.Drawing.Size(145, 25);
+            this.lbUser.TabIndex = 10;
+            this.lbUser.Text = "(NOME USER)";
             // 
-            // label1
+            // lbChat
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(17, 66);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(724, 256);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "label1";
+            this.lbChat.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lbChat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbChat.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lbChat.Location = new System.Drawing.Point(17, 66);
+            this.lbChat.Name = "lbChat";
+            this.lbChat.Size = new System.Drawing.Size(724, 256);
+            this.lbChat.TabIndex = 11;
+            this.lbChat.Text = "label1";
             // 
-            // textBoxEscrever
+            // tbmensagem
             // 
-            this.textBoxEscrever.Location = new System.Drawing.Point(17, 334);
-            this.textBoxEscrever.Multiline = true;
-            this.textBoxEscrever.Name = "textBoxEscrever";
-            this.textBoxEscrever.Size = new System.Drawing.Size(626, 28);
-            this.textBoxEscrever.TabIndex = 13;
+            this.tbmensagem.Location = new System.Drawing.Point(17, 334);
+            this.tbmensagem.Multiline = true;
+            this.tbmensagem.Name = "tbmensagem";
+            this.tbmensagem.Size = new System.Drawing.Size(626, 28);
+            this.tbmensagem.TabIndex = 13;
             // 
-            // buttonRegistar
+            // btEnviar
             // 
-            this.buttonRegistar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.buttonRegistar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonRegistar.Location = new System.Drawing.Point(649, 334);
-            this.buttonRegistar.Name = "buttonRegistar";
-            this.buttonRegistar.Size = new System.Drawing.Size(92, 28);
-            this.buttonRegistar.TabIndex = 14;
-            this.buttonRegistar.Text = "Enviar";
-            this.buttonRegistar.UseVisualStyleBackColor = false;
+            this.btEnviar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btEnviar.Location = new System.Drawing.Point(649, 334);
+            this.btEnviar.Name = "btEnviar";
+            this.btEnviar.Size = new System.Drawing.Size(92, 28);
+            this.btEnviar.TabIndex = 14;
+            this.btEnviar.Text = "Enviar";
+            this.btEnviar.UseVisualStyleBackColor = false;
             // 
             // FormChat
             // 
@@ -81,10 +81,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(771, 393);
-            this.Controls.Add(this.buttonRegistar);
-            this.Controls.Add(this.textBoxEscrever);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.labelUser);
+            this.Controls.Add(this.btEnviar);
+            this.Controls.Add(this.tbmensagem);
+            this.Controls.Add(this.lbChat);
+            this.Controls.Add(this.lbUser);
             this.Name = "FormChat";
             this.Text = "FormChat";
             this.ResumeLayout(false);
@@ -94,9 +94,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label labelUser;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBoxEscrever;
-        private System.Windows.Forms.Button buttonRegistar;
+        private System.Windows.Forms.Label lbUser;
+        private System.Windows.Forms.Label lbChat;
+        private System.Windows.Forms.TextBox tbmensagem;
+        private System.Windows.Forms.Button btEnviar;
     }
 }
