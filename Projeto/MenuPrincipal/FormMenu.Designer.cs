@@ -43,6 +43,7 @@
             this.btEntrar.TabIndex = 1;
             this.btEntrar.Text = "Entrar";
             this.btEntrar.UseVisualStyleBackColor = false;
+            this.btEntrar.Click += new System.EventHandler(this.btEntrar_Click);
             // 
             // label1
             // 

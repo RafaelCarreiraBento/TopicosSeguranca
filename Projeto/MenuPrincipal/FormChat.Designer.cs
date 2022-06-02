@@ -32,6 +32,7 @@
             this.lbChat = new System.Windows.Forms.Label();
             this.tbmensagem = new System.Windows.Forms.TextBox();
             this.btEnviar = new System.Windows.Forms.Button();
+            this.btLogout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbUser
@@ -74,6 +75,19 @@
             this.btEnviar.TabIndex = 14;
             this.btEnviar.Text = "Enviar";
             this.btEnviar.UseVisualStyleBackColor = false;
+            this.btEnviar.Click += new System.EventHandler(this.btEnviar_Click);
+            // 
+            // btLogout
+            // 
+            this.btLogout.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btLogout.Location = new System.Drawing.Point(649, 20);
+            this.btLogout.Name = "btLogout";
+            this.btLogout.Size = new System.Drawing.Size(92, 28);
+            this.btLogout.TabIndex = 15;
+            this.btLogout.Text = "Logout";
+            this.btLogout.UseVisualStyleBackColor = false;
+            this.btLogout.Click += new System.EventHandler(this.btLogout_Click);
             // 
             // FormChat
             // 
@@ -81,6 +95,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(771, 393);
+            this.Controls.Add(this.btLogout);
             this.Controls.Add(this.btEnviar);
             this.Controls.Add(this.tbmensagem);
             this.Controls.Add(this.lbChat);
@@ -98,5 +113,6 @@
         private System.Windows.Forms.Label lbChat;
         private System.Windows.Forms.TextBox tbmensagem;
         private System.Windows.Forms.Button btEnviar;
+        private System.Windows.Forms.Button btLogout;
     }
 }
