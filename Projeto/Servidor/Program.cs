@@ -25,7 +25,7 @@ namespace Servidor
             TcpListener listener = new TcpListener(endPoint);
             listener.Start();
             Console.WriteLine("Servidor Pronto para receber mensagens!");
-            int clientecounter=0;
+            int clientecounter=1;
             while (true)
             {
                 TcpClient client = listener.AcceptTcpClient();
@@ -33,7 +33,6 @@ namespace Servidor
                 clientecounter++;
                 ClientHandler clientHandler = new ClientHandler(client,clientecounter);
                 clientHandler.Handle();
-
             }
         }
     }
@@ -43,7 +42,7 @@ namespace Servidor
         private TcpClient client;
         private int clientID;
 
-        //PARA CRIAR O CLIENTE E NÚMERO
+        // CONSTRUTOR
         public ClientHandler(TcpClient client, int clieentID)
         {
             this.client = client;
