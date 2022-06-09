@@ -69,9 +69,9 @@ namespace MenuPrincipal
             //ENVIAR A MENSAGEM DO CLIENTE PARA O SERVIDOR 
             string msg = username + ": " + tbmensagem.Text;
             tbmensagem.Clear();
-           // string mensagemCifrada = encryptMessage(msg);
-
-            byte[] packet = protocolSI.Make(ProtocolSICmdType.DATA, msg);
+            string mensagemCifrada = encryptMessage(msg);
+            
+            byte[] packet = protocolSI.Make(ProtocolSICmdType.DATA, mensagemCifrada);
             //ProtocolSICmdType - INTERPRETA O TIPO DE MENSAGEM RECEBIDO
             //protocolSI.Make - CRIAR A MENSAGEM DO TIPO ESPECÍFICO
 
@@ -89,13 +89,13 @@ namespace MenuPrincipal
         /// </summary>
         /// <param name="mensagem"</param>
         /// <returns> Mensagem Cifrada</returns>
-        public void decryptMessage(string mensagem)
+        public string decryptMessage(string mensagem)
         {
             byte[] dados = Convert.FromBase64String(mensagem);
 
             //DECIFRAR DADOS ATRAVÉS DO RSA
             byte[] dadosEnc = rsa.Decrypt(dados, true);
-            lbChat.Text += Encoding.UTF8.GetString(dadosEnc);
+            return Encoding.UTF8.GetString(dadosEnc);
         }
 
         /// <summary>
@@ -117,7 +117,9 @@ namespace MenuPrincipal
 
         private void FormChat2_Load(object sender, EventArgs e)
         {
-            byte[] packet = protocolSI.Make(ProtocolSICmdType.DATA, username);
+            string userJoined = username + " entrou no chat!";
+            string userJoinedCifrado = encryptMessage(userJoined);
+            byte[] packet = protocolSI.Make(ProtocolSICmdType.DATA, userJoinedCifrado);
             networkStream.Write(packet, 0, packet.Length);
 
             while(protocolSI.GetCmdType() != ProtocolSICmdType.ACK)
@@ -133,14 +135,17 @@ namespace MenuPrincipal
         private void RecebeMensagem()
         {
             ProtocolSI MessageReturn = new ProtocolSI();
+            //Está sempre à escuta até o utilizador dar logout
             while (true && networkStream.CanRead)
             {
+                //Enquanto houver dados
                 while (networkStream.DataAvailable)
                 {
                     int lidos = networkStream.Read(MessageReturn.Buffer,0,MessageReturn.Buffer.Length);
                     if ( MessageReturn.GetCmdType() == ProtocolSICmdType.DATA)
                     {
                         string msg = MessageReturn.GetStringFromData();
+                        //msg = decryptMessage(msg);
                         lbChat.BeginInvoke(new MethodInvoker(delegate { lbChat.Text += "\n"+msg; }));
                     }
                 }

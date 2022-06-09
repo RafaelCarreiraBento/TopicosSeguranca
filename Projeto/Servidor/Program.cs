@@ -33,7 +33,7 @@ namespace Servidor
                 TcpClient client = listener.AcceptTcpClient();
                 NetworkStream streamm = client.GetStream();
                 stream.Add(streamm);
-                Console.WriteLine("Clientes {0} conectados",clientecounter);
+                Console.WriteLine("Cliente {0} conectados",clientecounter);
                 clientecounter++;
                 ClientHandler clientHandler = new ClientHandler(client,clientecounter);
                 clientHandler.Handle();
