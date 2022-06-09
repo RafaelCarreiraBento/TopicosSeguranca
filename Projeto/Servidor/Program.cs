@@ -15,6 +15,8 @@ namespace Servidor
     internal class Program
     {
         private const int PORT = 10000;
+        public static List<NetworkStream> stream = new List<NetworkStream>();
+
 
         static void Main(string[] args)
         {
@@ -29,10 +31,26 @@ namespace Servidor
             while (true)
             {
                 TcpClient client = listener.AcceptTcpClient();
+                NetworkStream streamm = client.GetStream();
+                stream.Add(streamm);
                 Console.WriteLine("Clientes {0} conectados",clientecounter);
                 clientecounter++;
                 ClientHandler clientHandler = new ClientHandler(client,clientecounter);
                 clientHandler.Handle();
+            }
+        }
+
+        public static void DevolveMensagens (string msg)
+        {
+            foreach (NetworkStream stream in stream)
+            {
+                if (stream.CanWrite)
+                {
+                    ProtocolSI protocolSI = new ProtocolSI();
+                    byte[] output = protocolSI.Make(ProtocolSICmdType.DATA, msg);
+                    stream.Write(output, 0, output.Length);
+                    stream.Flush();
+                }
             }
         }
     }
@@ -70,7 +88,9 @@ namespace Servidor
                 switch (protocolSI.GetCmdType())
                 {
                     case ProtocolSICmdType.DATA:
-                        Console.WriteLine(protocolSI.GetStringFromData());
+                        string msg = protocolSI.GetStringFromData();
+                        Console.WriteLine(msg);
+                        Program.DevolveMensagens(msg);
                         //CRIAR RESPOTA PARA CLIENTE
                         ack = protocolSI.Make(ProtocolSICmdType.ACK);
                         networkStream.Write(ack, 0, ack.Length);

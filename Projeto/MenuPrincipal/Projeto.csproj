@@ -64,11 +64,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormChat.cs">
+    <Compile Include="FormChat2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormChat.Designer.cs">
-      <DependentUpon>FormChat.cs</DependentUpon>
+    <Compile Include="FormChat2.Designer.cs">
+      <DependentUpon>FormChat2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin2.Designer.cs">
+      <DependentUpon>FormLogin2.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMenu.cs">
       <SubType>Form</SubType>
@@ -76,19 +82,13 @@
     <Compile Include="FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormLogin.Designer.cs">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormChat.resx">
-      <DependentUpon>FormChat.cs</DependentUpon>
+    <EmbeddedResource Include="FormChat2.resx">
+      <DependentUpon>FormChat2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLogin.resx">
-      <DependentUpon>FormLogin.cs</DependentUpon>
+    <EmbeddedResource Include="FormLogin2.resx">
+      <DependentUpon>FormLogin2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>

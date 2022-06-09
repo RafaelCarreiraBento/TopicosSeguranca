@@ -21,7 +21,7 @@ namespace MenuPrincipal
 
         private void btEntrar_Click(object sender, EventArgs e)
         {
-            FormLogin login = new FormLogin();
+            FormLogin2 login = new FormLogin2();
             login.Show();
         }
     }

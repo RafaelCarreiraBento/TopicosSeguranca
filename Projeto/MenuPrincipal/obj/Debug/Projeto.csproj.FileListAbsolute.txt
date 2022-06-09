@@ -3,8 +3,6 @@ C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segur
 C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\bin\Debug\MenuPrincipal.pdb
 C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\Projeto.csproj.AssemblyReference.cache
 C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\Projeto.csproj.SuggestedBindingRedirects.cache
-C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.FormChat.resources
-C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.FormLogin.resources
 C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.FormMenu.resources
 C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.Properties.Resources.resources
 C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\Projeto.csproj.GenerateResource.cache
@@ -15,3 +13,5 @@ C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segur
 C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\Projeto.csproj.CopyComplete
 C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\bin\Debug\baseDadosProjeto.mdf
 C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\bin\Debug\baseDadosProjeto_log.ldf
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.FormChat2.resources
+C:\Users\rafae\OneDrive\Ambiente de Trabalho\TESP\2º semestre\Tópicos de segurança\Projeto\Projeto\MenuPrincipal\obj\Debug\MenuPrincipal.FormLogin2.resources
