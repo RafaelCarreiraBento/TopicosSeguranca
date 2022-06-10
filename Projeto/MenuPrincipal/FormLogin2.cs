@@ -17,13 +17,10 @@ namespace MenuPrincipal
     public partial class FormLogin2 : Form
     {
         public static string nomeDeUtilizador;
-        private const int PORT = 10000;
         private const int SALTSIZE = 8;
         private const int NUMBER_OF_ITERATIONS = 5000;
-        NetworkStream networkStream;
-        ProtocolSI protocolSI;
-        TcpClient client;
-
+      
+        
         public FormLogin2()
         {
             InitializeComponent();
@@ -35,6 +32,7 @@ namespace MenuPrincipal
             String username = textBoxUser.Text;
             if (VerifyLogin(username, pass))
             {
+
                 MessageBox.Show("Utilizador válido");
                 nomeDeUtilizador = username;
                 FormChat2 chat = new FormChat2();

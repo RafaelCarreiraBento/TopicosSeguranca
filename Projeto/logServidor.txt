@@ -1,0 +1,28 @@
+﻿10/06/2022 16:37:55  - Servidor Pronto para receber mensagens!
+10/06/2022 16:38:02 - Cliente 1 conectado
+10/06/2022 16:38:02 - Cliente 1 - (Mensagem Encriptada)yfv8FI+zG+f4CA5/tYcsRqXlu//zRPwCoF6dof7LfeE=
+10/06/2022 16:38:07 - Cliente 2 conectado
+10/06/2022 16:38:07 - Cliente 2 - (Mensagem Encriptada)3D2+WKjTXEjBp6WlRWjGUHc/mv9Q7yUS5VxMDAP7fpU=
+10/06/2022 16:38:15 - Cliente 2 - (Mensagem Encriptada)0gr9pnIkP4co1GdbaaCGAGLXYU6MA5S3V0k/l4NAd0I=
+10/06/2022 16:38:22 - Cliente 1 - (Mensagem Encriptada)JlqnXAA9esTW+XGvLWYmGEzBLsiiRAzJaMZu753eEI4=
+10/06/2022 16:38:29 - Fim do Thread do Cliente do Cliente 1
+10/06/2022 16:38:30 - Fim do Thread do Cliente do Cliente 2
+10/06/2022 16:39:31  - Servidor Pronto para receber mensagens!
+10/06/2022 16:39:38 - Cliente 1 conectado
+10/06/2022 16:39:38 - Cliente 1 - (Mensagem Encriptada)6Vz8vb+EKFS+DfVBwdtcCnK93aDIib9juRUsuark3PE=
+10/06/2022 16:39:39 - Cliente 1 - (Mensagem Encriptada)ma8Hozvuo46zUWVr+oVZIeF0XYb+OcbNo9mRWwBpGyY=
+10/06/2022 16:39:56 - Cliente 1 - (Mensagem Encriptada)ma8Hozvuo46zUWVr+oVZIeF0XYb+OcbNo9mRWwBpGyY=
+10/06/2022 16:39:59  - Servidor Pronto para receber mensagens!
+10/06/2022 16:40:05 - Cliente 1 conectado
+10/06/2022 16:40:05 - Cliente 1 - (Mensagem Encriptada)seFkDriev/V7h0lJ5lRfmxNxFXcADAVFJeeUSnVtM/A=
+10/06/2022 16:40:08 - Cliente 1 - (Mensagem Encriptada)H2cRi/CnhA3xPYMdfPnVsFe+SYtlEj4qMqeSL+P1kyI=
+10/06/2022 16:40:12 - Cliente 1 - (Mensagem Encriptada)H2cRi/CnhA3xPYMdfPnVsK9HLb+zsC3+791FA5uNgqU=
+10/06/2022 16:40:18 - Fim do Thread do Cliente do Cliente 1
+10/06/2022 16:40:55  - Servidor Pronto para receber mensagens!
+10/06/2022 16:41:01 - Cliente 1 conectado
+10/06/2022 16:41:01 - Cliente 1 - (Mensagem Encriptada)QF7dvay3TiaX1cdoSI4deRbeF/now1XsJ8w6Ff6Vua8=
+10/06/2022 16:41:07 - Cliente 2 conectado
+10/06/2022 16:41:07 - Cliente 2 - (Mensagem Encriptada)ia8xHiyG1bm9WVr+4ouYg2bLQ2z4QIs04QREQ1ADflQ=
+10/06/2022 16:41:18 - Cliente 1 - (Mensagem Encriptada)b2/VN0qR5EogLgMVn/rh3zzC40zUErlVcSrdT+qwNBA=
+10/06/2022 16:41:21 - Cliente 2 - (Mensagem Encriptada)KzCWTq/BK4rHBwuCP5juV7nFyKg22Y9906uHymR258Y=
+10/06/2022 16:41:52 - Fim do Thread do Cliente do Cliente 1

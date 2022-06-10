@@ -41,7 +41,7 @@
             this.btLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btLogout.Location = new System.Drawing.Point(673, 54);
             this.btLogout.Name = "btLogout";
-            this.btLogout.Size = new System.Drawing.Size(92, 28);
+            this.btLogout.Size = new System.Drawing.Size(92, 33);
             this.btLogout.TabIndex = 20;
             this.btLogout.Text = "Logout";
             this.btLogout.UseVisualStyleBackColor = false;
