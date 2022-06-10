@@ -42,10 +42,13 @@ namespace Servidor
             {
                 TcpClient client = listener.AcceptTcpClient();
                 NetworkStream streamm = client.GetStream();
+                //Adiciona a stream do cliente à lista de NetworkStreams
                 stream.Add(streamm);
+                //Cria string a dizer que um novo cliente se conectou ao servidor.
                 string clienteConectado = DateTime.Now + " - Cliente " + clientecounter + " conectado";
                 Console.WriteLine(clienteConectado);
                 File.AppendAllText(pathFicheiro, clienteConectado + Environment.NewLine, Encoding.UTF8);
+                //Cria um  novo Cliente
                 ClientHandler clientHandler = new ClientHandler(client,clientecounter);
                 clientHandler.Handle();
                 clientecounter++;
@@ -61,13 +64,14 @@ namespace Servidor
             foreach (NetworkStream stream in stream)
             {
                 if (stream.CanWrite)
-                {
+                { 
                     ProtocolSI protocolSI = new ProtocolSI();
                     byte[] output = protocolSI.Make(ProtocolSICmdType.DATA, msg);
                     stream.Write(output, 0, output.Length);
                     stream.Flush();
                 }
             }
+
         }
     }
 
@@ -76,7 +80,7 @@ namespace Servidor
         private TcpClient client;
         private int clientID;
 
-        // CONSTRUTOR
+        //Construtor
         public ClientHandler(TcpClient client, int clieentID)
         {
             this.client = client;
@@ -85,6 +89,7 @@ namespace Servidor
 
         public void Handle()
         {
+            //Cria o thread do cliente
             Thread thread = new Thread(threadHandler);
             thread.Start();
         }
@@ -106,16 +111,26 @@ namespace Servidor
                 byte[] ack;
                 switch (protocolSI.GetCmdType())
                 {
-                    case ProtocolSICmdType.DATA:
+                    case ProtocolSICmdType.DATA:    // Quando recebe dados
+                        //Mensagem que foi recebida
                         string msg = protocolSI.GetStringFromData();
-                        File.AppendAllText(pathFicheiro, DateTime.Now + " - Cliente " +clientID +" - (Mensagem Encriptada)" + msg + Environment.NewLine, Encoding.UTF8);
-                        Console.WriteLine(DateTime.Now + " - Cliente " + clientID + " - (Mensagem Encriptada)" + msg);
+                        File.AppendAllText(pathFicheiro, DateTime.Now + " - Mensagem recbida do cliente " +clientID +" - (Mensagem Encriptada)" + msg + Environment.NewLine, Encoding.UTF8);
+                        Console.WriteLine(DateTime.Now + " - Mensagem recbida do cliente " + clientID + " - (Mensagem Encriptada)" + msg);
+                        //Cria string a dizer que a mensagem do cliente vai ser enviada
+                        string mensagemASerEnviada = DateTime.Now + " - Mensagem a ser Enviada para todos os clientes...";
+                        Console.WriteLine(mensagemASerEnviada);
+                        File.AppendAllText(pathFicheiro,mensagemASerEnviada + Environment.NewLine, Encoding.UTF8);
+                        //Vai devolver as mensagens
                         Program.DevolveMensagens(msg);
-                        //CRIAR RESPOTA PARA CLIENTE
                         ack = protocolSI.Make(ProtocolSICmdType.ACK);
                         networkStream.Write(ack, 0, ack.Length);
+                        //Cria string a dizer que a mensagem do cliente já foi enviado para todos os clientes
+                        string mensagemEnviada = DateTime.Now + " - Mensagem enviada com sucesso para todos os clientes!";
+                        Console.WriteLine(mensagemEnviada);
+                        File.AppendAllText(pathFicheiro, mensagemEnviada + Environment.NewLine, Encoding.UTF8);
                         break;
-                    case ProtocolSICmdType.EOT:     // FIM DO THREAD DO CLIENTE; QUANDO O CLIENTE SAI DO CHAT
+                    case ProtocolSICmdType.EOT:     // QUando é o fim do thead, quando o cliente sai do chat
+                        //Cria string a dizer que o thread terminou
                         string fimThread = DateTime.Now + " - Fim do Thread do Cliente do Cliente " + clientID;
                         File.AppendAllText(pathFicheiro, fimThread + Environment.NewLine, Encoding.UTF8);
                         Console.WriteLine(fimThread);

@@ -19,6 +19,7 @@ namespace MenuPrincipal
         public FormMenu()
         {
             InitializeComponent();
+            //Dá generate ao IV e à Key que serão usados para encriptar e desencriptar
             aes = Aes.Create();
             aes.GenerateIV();
             aes.GenerateKey();
@@ -26,6 +27,7 @@ namespace MenuPrincipal
 
         private void btEntrar_Click(object sender, EventArgs e)
         {
+            //Cria uma instância do Form de Login e abre-o
             FormLogin2 login = new FormLogin2();
             login.Show();
         }

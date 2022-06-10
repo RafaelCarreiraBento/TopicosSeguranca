@@ -23,13 +23,12 @@ namespace MenuPrincipal
         NetworkStream networkStream;
         ProtocolSI protocolSI;
         TcpClient client;
-        Thread receiver;
-        private RSACryptoServiceProvider rsa;
         
         public FormChat2()
         {
             InitializeComponent();
 
+            //Recebe o username que deu Login do outro form e coloca-o na label
             username = FormLogin2.nomeDeUtilizador;
             lbUser.Text = username;
 
@@ -45,21 +44,16 @@ namespace MenuPrincipal
             //OBTER A LIGAÇÃO DO SERVIDOR
             networkStream = client.GetStream();
             protocolSI = new ProtocolSI();
-
-            rsa = new RSACryptoServiceProvider();
-
-            //CRIAR CHAVE PRIVADA/PÚBLICA
-            string chave = rsa.ToXmlString(true);
-
         }
 
         private void btLogout_Click(object sender, EventArgs e)
         {
+            //Diz ao servidor que o cliente vai se desconectar
             byte[] eot = protocolSI.Make(ProtocolSICmdType.EOT);
             networkStream.Write(eot, 0, eot.Length);
             networkStream.Read(protocolSI.Buffer, 0, protocolSI.Buffer.Length);
 
-            //FECHAR TODAS AS LIGAÇÕES
+            //Fecha todas as ligações e o form
             networkStream.Close();
             client.Close();
             this.Close();
@@ -67,12 +61,14 @@ namespace MenuPrincipal
 
         private void btEnviar_Click(object sender, EventArgs e)
         {
+            //Se estiver alguma mensagem escrita
             if (tbmensagem.Text != "")
             {
-                //ENVIAR A MENSAGEM DO CLIENTE PARA O SERVIDOR 
+                //Envia a mensagem para o servidor com a hora
                 string msg = DateTime.Now.ToString("HH:mm") + " - " + username + ": " + tbmensagem.Text;
+                //Limpa a textBox da mensagem
                 tbmensagem.Clear();
-                //string mensagemCifrada = encryptMessage(msg);
+                //Cifra a mensagem
                 string mensagemCifrada = cifrarTexto(msg);
 
                 byte[] packet = protocolSI.Make(ProtocolSICmdType.DATA, mensagemCifrada);
@@ -137,10 +133,9 @@ namespace MenuPrincipal
 
             //VARIÁVEL PARA GUARDAR O TEXTO DECIFRADO
             byte[] txtDecifrado = new byte[ms.Length];
-            int byteslidos = 0;
 
             //DECIFRA OS DADOS
-            byteslidos = cs.Read(txtDecifrado, 0, txtDecifrado.Length);
+            int byteslidos = cs.Read(txtDecifrado, 0, txtDecifrado.Length);
             cs.Close();
 
             //CONVERTER PARA TEXTO
@@ -151,8 +146,11 @@ namespace MenuPrincipal
 
         private void FormChat2_Load(object sender, EventArgs e)
         {
+            //Cria mensagem a dizer que o utilizador entrou no chat
             string userJoined = DateTime.Now.ToString("HH:mm")+ " - " + username + " entrou no chat!";
+            //Cifra mensagem
             string userJoinedCifrado = cifrarTexto(userJoined);
+            //Envia mensagem para o Servidor
             byte[] packet = protocolSI.Make(ProtocolSICmdType.DATA, userJoinedCifrado);
             networkStream.Write(packet, 0, packet.Length);
 
@@ -160,10 +158,9 @@ namespace MenuPrincipal
             {
                 networkStream.Read(protocolSI.Buffer,0,protocolSI.Buffer.Length);
             }
-
+            //Cria o thread
             Thread thread = new Thread(RecebeMensagem);
-            receiver = thread;
-            receiver.Start();
+            thread.Start();
         }
 
         private void RecebeMensagem()
@@ -172,14 +169,18 @@ namespace MenuPrincipal
             //Está sempre à escuta até o utilizador dar logout
             while (true && networkStream.CanRead)
             {
-                //Enquanto houver dados
+                //Enquanto houver dados para receber
                 while (networkStream.DataAvailable)
                 {
+                    //Recebe os dados
                     int lidos = networkStream.Read(MessageReturn.Buffer,0,MessageReturn.Buffer.Length);
+                    //Se houver mais dados
                     if ( MessageReturn.GetCmdType() == ProtocolSICmdType.DATA)
                     {
                         string msg = MessageReturn.GetStringFromData();
+                        //Decifra a mensagem
                         msg = decifrarTexto(msg);
+                        //Escreve a mensagem na label
                         lbChat.BeginInvoke(new MethodInvoker(delegate { lbChat.Text += "\n"+msg; }));
                     }
                 }

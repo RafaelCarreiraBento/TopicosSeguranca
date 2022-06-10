@@ -16,7 +16,7 @@ namespace MenuPrincipal
 {
     public partial class FormLogin2 : Form
     {
-        public static string nomeDeUtilizador;
+        public static string nomeDeUtilizador;  // Variável que vai armazenar o username para os outros forms
         private const int SALTSIZE = 8;
         private const int NUMBER_OF_ITERATIONS = 5000;
       
@@ -28,13 +28,15 @@ namespace MenuPrincipal
 
         private void btLogin_Click(object sender, EventArgs e)
         {
+            //Obtém o texto das TextBoxs
             String pass = textBoxPassword.Text;
             String username = textBoxUser.Text;
+            //Vai verificar se os dados de Login estão corretos
             if (VerifyLogin(username, pass))
             {
-
                 MessageBox.Show("Utilizador válido");
                 nomeDeUtilizador = username;
+                //Vai abir o form de chat
                 FormChat2 chat = new FormChat2();
                 this.Hide();
                 chat.Show();
@@ -43,7 +45,7 @@ namespace MenuPrincipal
         }
 
         /// <summary>
-        /// Efetua o Login com a base de dados
+        /// Verifica se os dados estão base de dados
         /// </summary>
         /// <param name="username">Username</param>
         /// <param name="password">password</param>
@@ -96,7 +98,6 @@ namespace MenuPrincipal
                 byte[] hash = GenerateSaltedHash(password, saltStored);
                 return saltedPasswordHashStored.SequenceEqual(hash);
 
-                //TODO: verificar se a password na base de dados 
                 throw new NotImplementedException();
             }
             catch (Exception e)
@@ -106,6 +107,13 @@ namespace MenuPrincipal
             }
         }
 
+        /// <summary>
+        /// Efetua o registo na base de dados
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="saltedPasswordHash"></param>
+        /// <param name="salt"></param>
+        /// <exception cref="Exception"></exception>
         private void Register(string username, byte[] saltedPasswordHash, byte[] salt)
         {
             SqlConnection conn = null;
@@ -160,7 +168,7 @@ namespace MenuPrincipal
         /// <returns></returns>
         private static byte[] GenerateSalt(int size)
         {
-            //Generate a cryptographic random number.
+            //Dá generate a um número cryptográfico aleatório.
             RNGCryptoServiceProvider rng = new RNGCryptoServiceProvider();
             byte[] buff = new byte[size];
             rng.GetBytes(buff);
@@ -181,10 +189,13 @@ namespace MenuPrincipal
 
         private void btRegisto_Click(object sender, EventArgs e)
         {
+            //Obtém dados das textBoxs
             String pass = textBoxPassword.Text;
             String username = textBoxUser.Text;
+            //Se as textBoxs não estiverem vazias
             if (pass != "" && username != "")
             {
+                //Criar o Salt, o SaltedHash e efetuar o registo
                 byte[] salt = GenerateSalt(SALTSIZE);
                 byte[] hash = GenerateSaltedHash(pass, salt);
                 Register(username, hash, salt);
