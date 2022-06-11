@@ -31,8 +31,8 @@
             this.btLogout = new System.Windows.Forms.Button();
             this.btEnviar = new System.Windows.Forms.Button();
             this.tbmensagem = new System.Windows.Forms.TextBox();
-            this.lbChat = new System.Windows.Forms.Label();
             this.lbUser = new System.Windows.Forms.Label();
+            this.lbChat = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btLogout
@@ -67,16 +67,6 @@
             this.tbmensagem.Size = new System.Drawing.Size(626, 28);
             this.tbmensagem.TabIndex = 18;
             // 
-            // lbChat
-            // 
-            this.lbChat.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.lbChat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbChat.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbChat.Location = new System.Drawing.Point(41, 100);
-            this.lbChat.Name = "lbChat";
-            this.lbChat.Size = new System.Drawing.Size(724, 256);
-            this.lbChat.TabIndex = 17;
-            // 
             // lbUser
             // 
             this.lbUser.AutoSize = true;
@@ -88,16 +78,26 @@
             this.lbUser.TabIndex = 16;
             this.lbUser.Text = "(NOME USER)";
             // 
+            // lbChat
+            // 
+            this.lbChat.Location = new System.Drawing.Point(41, 100);
+            this.lbChat.Multiline = true;
+            this.lbChat.Name = "lbChat";
+            this.lbChat.ReadOnly = true;
+            this.lbChat.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.lbChat.Size = new System.Drawing.Size(724, 256);
+            this.lbChat.TabIndex = 21;
+            // 
             // FormChat2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbChat);
             this.Controls.Add(this.btLogout);
             this.Controls.Add(this.btEnviar);
             this.Controls.Add(this.tbmensagem);
-            this.Controls.Add(this.lbChat);
             this.Controls.Add(this.lbUser);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "FormChat2";
@@ -113,7 +113,7 @@
         private System.Windows.Forms.Button btLogout;
         private System.Windows.Forms.Button btEnviar;
         private System.Windows.Forms.TextBox tbmensagem;
-        private System.Windows.Forms.Label lbChat;
         private System.Windows.Forms.Label lbUser;
+        private System.Windows.Forms.TextBox lbChat;
     }
 }

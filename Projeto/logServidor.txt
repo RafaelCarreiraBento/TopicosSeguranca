@@ -69,3 +69,150 @@
 10/06/2022 19:52:14 - Mensagem enviada com sucesso para todos os clientes!
 10/06/2022 19:52:30 - Fim do Thread do Cliente do Cliente 1
 10/06/2022 19:52:35 - Fim do Thread do Cliente do Cliente 2
+11/06/2022 17:26:13  - Servidor Pronto para receber mensagens!
+11/06/2022 17:26:22 - Cliente 1 conectado
+11/06/2022 17:26:22 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)gT4d2Hcvd4y6UzJQULHSUWVlQvTMNyrL9s8bgLEbbKo=
+11/06/2022 17:26:22 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:26:22 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:26:33 - Cliente 2 conectado
+11/06/2022 17:26:33 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)AWk8vOdemVe1IrrlJzysLXxeX0eWxnbjcX3RRUGdYME=
+11/06/2022 17:26:33 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:26:33 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:26:42 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)oGY9yDPCLUYFpFOC7KdX6tDyw48PUbAd65XK2Sxlm4E=
+11/06/2022 17:26:42 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:26:42 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:26:51 - Fim do Thread do Cliente do Cliente 1
+11/06/2022 17:27:01 - Fim do Thread do Cliente do Cliente 2
+11/06/2022 17:54:19  - Servidor Pronto para receber mensagens!
+11/06/2022 17:54:29 - Cliente 1 conectado
+11/06/2022 17:54:29 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)7fadYHGCBfUSM5PnvQpE6kw36xUxkfGGWf7DxN8S8Jc=
+11/06/2022 17:54:29 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:29 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:36 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3T2Dz1LlAcWt6aOI6pTL3mhXRTOjEjdSjlP4EfiaXji11C5nstI7HqAY6SIiSLV0r0bXk8Ymrirgy85oNOaUtL4PeFJXmGhONMtterXuNgn9oXVJIJJRoSJN9GL3PlVHy9Hgzo+B9R34sGV/UD63Sv0hVIjtjca+b/r2vJ4CPQg4
+11/06/2022 17:54:36 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:36 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:43 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)AAid4NLob88iHL95I0Ed/Sy4kYJWTILYob3Ueu/ql2Y=
+11/06/2022 17:54:43 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:43 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:45 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)AAid4NLob88iHL95I0Ed/Sz+onyNXc8wQDIJEYmIZUg=
+11/06/2022 17:54:45 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:45 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:46 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3Xe58rMiiD0PIsROLofH8aE=
+11/06/2022 17:54:46 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:46 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:47 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3UtegR4ZBDshFp0eZi6VvI4=
+11/06/2022 17:54:47 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:47 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:48 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3YJpxOW8VVt3ggXxhc8vnxg=
+11/06/2022 17:54:48 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:48 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:50 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3Z+ZS991lt7TKzZi0EKD1TE=
+11/06/2022 17:54:50 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:50 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:51 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3bbP0kilitwJV1SPKC6ybQE=
+11/06/2022 17:54:51 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:51 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:51 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3dY5nl8b6KTk/rJMcm/1wxA=
+11/06/2022 17:54:51 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:51 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:52 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3XBDRYsZTK9Fc6YPRRJwWWc=
+11/06/2022 17:54:52 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:52 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:53 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3dY5nl8b6KTk/rJMcm/1wxA=
+11/06/2022 17:54:53 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:53 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:55 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3dY5nl8b6KTk/rJMcm/1wxA=
+11/06/2022 17:54:55 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:55 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:56 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3YJpxOW8VVt3ggXxhc8vnxg=
+11/06/2022 17:54:56 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:56 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:54:58 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)P3i++u6z9iA19wLqcrYJ3SOKkWD/gTb6QbZpEGEiKZo=
+11/06/2022 17:54:58 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 17:54:58 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 17:55:05 - Fim do Thread do Cliente do Cliente 1
+11/06/2022 18:02:15  - Servidor Pronto para receber mensagens!
+11/06/2022 18:02:21 - Cliente 1 conectado
+11/06/2022 18:02:21 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)NQGFbTz4WyevUujiPpO5zwQDHjr+gXtE+dTB/d4KjYY=
+11/06/2022 18:02:21 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:02:21 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:02:29 - Cliente 2 conectado
+11/06/2022 18:02:29 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)7b/JZr3LcHE8vq5Zw69EjkYkmkzU7tRW82ah4XrM7zM=
+11/06/2022 18:02:29 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:02:29 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:02:32 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)U5CrV4JEItSkGmyRWlfLV4QDqDZGy5pxLE+rInTfQYs=
+11/06/2022 18:02:32 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:02:32 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:02:36 - Fim do Thread do Cliente do Cliente 1
+11/06/2022 18:02:37 - Fim do Thread do Cliente do Cliente 2
+11/06/2022 18:03:10  - Servidor Pronto para receber mensagens!
+11/06/2022 18:03:14 - Cliente 1 conectado
+11/06/2022 18:03:14 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)x7kRgYASUWfvg2QXSA//7KO11n62QvA+ZOgzkWZLl6Q=
+11/06/2022 18:03:14 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:03:14 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:03:20 - Cliente 2 conectado
+11/06/2022 18:03:20 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)PWFcvbE71HuacVKcsJSxdPtF34ftYh2YDIYZ4xQJzJI=
+11/06/2022 18:03:20 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:03:20 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:03:23 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)oLnZT36QkjOHdpXjJVamfTw3IGxHJmKUG9jTtVfsPMg=
+11/06/2022 18:03:23 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:03:23 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:03:24 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)oLnZT36QkjOHdpXjJVamfZ3qqSaafaPRELdw7fiZpXU=
+11/06/2022 18:03:24 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:03:24 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:03:57  - Servidor Pronto para receber mensagens!
+11/06/2022 18:04:07 - Cliente 1 conectado
+11/06/2022 18:04:07 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)3bp6jAZh2f4VcyMe9ucZaWTuBgSs6VUBhKW30g2Sxd0=
+11/06/2022 18:04:07 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:07 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:13 - Cliente 2 conectado
+11/06/2022 18:04:13 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)XseApa84zeEh6v0J9X/OmuZRML+cibDf+qMCdxhmu7Y=
+11/06/2022 18:04:13 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:13 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:17 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ovzgSZcXg65KmKkqG724hIZo=
+11/06/2022 18:04:17 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:17 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:18 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov7pYZ0lnpVlvVh6vrffqx6Q=
+11/06/2022 18:04:18 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:18 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:19 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov7pYZ0lnpVlvVh6vrffqx6Q=
+11/06/2022 18:04:19 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:19 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:20 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov7jPqVVSxViiaZ6jwSgv3kM=
+11/06/2022 18:04:20 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:20 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:21 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)qlXOetUl6gCawbCoRIDrcoVrsm2+gn7T2C6xL74Viwo=
+11/06/2022 18:04:21 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:21 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:22 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov7jPqVVSxViiaZ6jwSgv3kM=
+11/06/2022 18:04:22 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:22 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:24 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov7jPqVVSxViiaZ6jwSgv3kM=
+11/06/2022 18:04:24 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:24 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:25 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov7pYZ0lnpVlvVh6vrffqx6Q=
+11/06/2022 18:04:25 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:25 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:26 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov7jPqVVSxViiaZ6jwSgv3kM=
+11/06/2022 18:04:26 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:26 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:27 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov7jPqVVSxViiaZ6jwSgv3kM=
+11/06/2022 18:04:27 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:27 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:29 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ovyyhxHkUHbalJmAD5vNf5iw=
+11/06/2022 18:04:29 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:29 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:30 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov7fWEfEkjHmvg3ufCn267Tw=
+11/06/2022 18:04:30 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:30 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:31 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov1Yxux9PG2qPuQ8wyLQYXoc=
+11/06/2022 18:04:31 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:31 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:32 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov1Yxux9PG2qPuQ8wyLQYXoc=
+11/06/2022 18:04:32 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:32 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:35 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)+2J9yzkhZGFgGPRSSm/ov39499jVDEIYr4/zHe7uOtQ=
+11/06/2022 18:04:35 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:04:35 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:04:38 - Fim do Thread do Cliente do Cliente 2
+11/06/2022 18:04:39 - Fim do Thread do Cliente do Cliente 1

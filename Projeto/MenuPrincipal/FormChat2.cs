@@ -181,7 +181,7 @@ namespace MenuPrincipal
                         //Decifra a mensagem
                         msg = decifrarTexto(msg);
                         //Escreve a mensagem na label
-                        lbChat.BeginInvoke(new MethodInvoker(delegate { lbChat.Text += "\n"+msg; }));
+                        lbChat.BeginInvoke(new MethodInvoker(delegate { lbChat.Text += "\r\n"+msg; }));
                     }
                 }
             }
