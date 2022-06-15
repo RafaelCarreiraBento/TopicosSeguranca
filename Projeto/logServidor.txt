@@ -216,3 +216,20 @@
 11/06/2022 18:04:35 - Mensagem enviada com sucesso para todos os clientes!
 11/06/2022 18:04:38 - Fim do Thread do Cliente do Cliente 2
 11/06/2022 18:04:39 - Fim do Thread do Cliente do Cliente 1
+11/06/2022 18:06:50  - Servidor Pronto para receber mensagens!
+11/06/2022 18:06:55 - Cliente 1 conectado
+11/06/2022 18:06:55 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)8lUnpevvvxfbTYXneT+K/0ojDNW8hpYG/XUUiQ1SOms=
+11/06/2022 18:06:55 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:06:55 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:07:03 - Cliente 2 conectado
+11/06/2022 18:07:03 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)ms438242QMbPImYnBZiqyQwE6672fl/WGAH4zc+081o=
+11/06/2022 18:07:03 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:07:03 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:07:09 - Mensagem recbida do cliente 2 - (Mensagem Encriptada)9YrDOo3EO3uODuhg3im1d5oIN0m6sNsOAUTacYlBLgM=
+11/06/2022 18:07:09 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:07:09 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:07:10 - Mensagem recbida do cliente 1 - (Mensagem Encriptada)lCJP5Z5nTb4gN3tj7A25gu88wpErsCfSe1ps4eCCUwU=
+11/06/2022 18:07:10 - Mensagem a ser Enviada para todos os clientes...
+11/06/2022 18:07:10 - Mensagem enviada com sucesso para todos os clientes!
+11/06/2022 18:07:12 - Fim do Thread do Cliente do Cliente 1
+11/06/2022 18:07:13 - Fim do Thread do Cliente do Cliente 2
